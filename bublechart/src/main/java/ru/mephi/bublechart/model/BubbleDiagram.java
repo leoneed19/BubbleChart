@@ -12,6 +12,8 @@ public class BubbleDiagram {
     private int[] yScale;
     private List<Bubble> bubbles = new ArrayList<>();
     private List<Type> types = new ArrayList<>();
+    private String userName;
+    private boolean publicDiagram;
 
     public BubbleDiagram() {
     }
@@ -164,5 +166,21 @@ public class BubbleDiagram {
 
     public List<Project> getProjects() {
         return projects;
+    }
+
+    public String getUserName() {
+        return userName;
+    }
+
+    public void setUserName(String userName) {
+        this.userName = userName;
+    }
+
+    public boolean isPublicDiagram() {
+        return publicDiagram;
+    }
+
+    public void setPublicDiagram(boolean publicDiagram) {
+        this.publicDiagram = publicDiagram;
     }
 }

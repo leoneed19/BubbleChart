@@ -40,9 +40,9 @@ class DeleteExistingDiagramTest {
 
     @Test
     void deleteExistingDiagramTest() {
-        Mockito.when(bubbleDiagramRepository.findDiagramList())
+        Mockito.when(bubbleDiagramRepository.findDiagramList(""))
                 .thenReturn(Arrays.asList(new DiagramDto(), new DiagramDto()));
-        List<DiagramDto> diagramList = bubbleDiagramService.findDiagramList();
+        List<DiagramDto> diagramList = bubbleDiagramService.findDiagramList("");
         assertEquals(2, diagramList.size());
 
         Mockito.when(bubbleDiagramRepository.findById(1))
@@ -58,19 +58,19 @@ class DeleteExistingDiagramTest {
 
     @Test
     void deleteExistingDiagramEmptyDiagramListTest() {
-        Mockito.when(bubbleDiagramRepository.findDiagramList())
+        Mockito.when(bubbleDiagramRepository.findDiagramList(""))
                 .thenReturn(Collections.<DiagramDto>emptyList());
 
-        List<DiagramDto> diagramList = bubbleDiagramService.findDiagramList();
+        List<DiagramDto> diagramList = bubbleDiagramService.findDiagramList("");
 
         assertEquals(0, diagramList.size());
     }
 
     @Test
     void deleteExistingDiagramDiagramDidNotFoundTest() {
-        Mockito.when(bubbleDiagramRepository.findDiagramList())
+        Mockito.when(bubbleDiagramRepository.findDiagramList(""))
                 .thenReturn(Arrays.asList(new DiagramDto(), new DiagramDto()));
-        List<DiagramDto> diagramList = bubbleDiagramService.findDiagramList();
+        List<DiagramDto> diagramList = bubbleDiagramService.findDiagramList("");
         assertEquals(2, diagramList.size());
 
         Mockito.when(bubbleDiagramRepository.findById(1))

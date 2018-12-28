@@ -4,6 +4,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
+import org.springframework.web.context.request.RequestContextHolder;
 import ru.mephi.bublechart.interfaces.BubbleDiagramService;
 import ru.mephi.bublechart.mapper.DiagramMapper;
 import ru.mephi.bublechart.model.BubbleDiagram;
@@ -24,10 +25,22 @@ public class BubbleDiagramController {
         this.bubbleDiagramService = bubbleDiagramService;
     }
 
+    @PostMapping("/diagram")
+    public ResponseEntity<?> postDiagrams(@RequestBody PostDiagramDto postDiagramDto) {
+
+        String name = (String) RequestContextHolder.getRequestAttributes().getAttribute("name", 0);
+
+        bubbleDiagramService.createNewDiagram(postDiagramDto.getName(), name, postDiagramDto.isPublic());
+        return new ResponseEntity<>(HttpStatus.OK);
+    }
+
     @GetMapping("/diagrams")
     public ResponseEntity<?> getDiagrams() {
+
+        String name = (String) RequestContextHolder.getRequestAttributes().getAttribute("name", 0);
+
         DiagramsInfoDto dto
-                = new DiagramsInfoDto(bubbleDiagramService.findDiagramList());
+                = new DiagramsInfoDto(bubbleDiagramService.findDiagramList(name));
         return new ResponseEntity<>(dto, HttpStatus.OK);
     }
 
@@ -49,6 +62,9 @@ public class BubbleDiagramController {
         BubbleDiagram byId = bubbleDiagramService.findById(id);
 
         DiagramDto dto = DiagramMapper.map(byId);
+
+        dto.setProjectsInDiagram(bubbleDiagramService.findProjectsInDiagramById(id));
+        dto.setProjectsNotInDiagram(bubbleDiagramService.findProjectsNotInDiagramById(id));
 
         return new ResponseEntity<>(dto, HttpStatus.OK);
     }

@@ -13,6 +13,7 @@ import ru.mephi.bublechart.repository.BubbleDiagramRepository;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.assertNull;
 import static org.mockito.ArgumentMatchers.any;
+import static org.mockito.ArgumentMatchers.anyObject;
 
 @ExtendWith(MockitoExtension.class)
 class AddNewDiagrmTest {

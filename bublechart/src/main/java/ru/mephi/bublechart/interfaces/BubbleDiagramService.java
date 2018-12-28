@@ -10,7 +10,7 @@ import java.util.List;
 
 public interface BubbleDiagramService {
 
-    List<DiagramDto> findDiagramList();
+    List<DiagramDto> findDiagramList(String name);
 
     Integer deleteById(int id);
 
@@ -20,7 +20,7 @@ public interface BubbleDiagramService {
 
     Integer editBubbleDiagram(BubbleDiagram bubbleDiagram);
 
-    int createNewDiagram(String name);
+    int createNewDiagram(String name, String userName, boolean isPublic);
 
     boolean addProjectToBubbleDiagram(int bubbleDiagramId, int projectId);
 
@@ -29,4 +29,8 @@ public interface BubbleDiagramService {
     boolean deleteProjectFromDiagram(int diagramId, int projectId);
 
     boolean editDiagram(PutDiagramDto dto);
+
+    List<ProjectDto> findProjectsInDiagramById(int id);
+
+    List<ProjectDto> findProjectsNotInDiagramById(int id);
 }

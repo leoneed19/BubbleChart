@@ -22,8 +22,8 @@ public class BubbleDiagramServiceImpl implements BubbleDiagramService {
     }
 
     @Override
-    public List<DiagramDto> findDiagramList() {
-        return bubbleDiagramRepository.findDiagramList();
+    public List<DiagramDto> findDiagramList(String name) {
+        return bubbleDiagramRepository.findDiagramList(name);
     }
 
     @Override
@@ -47,8 +47,8 @@ public class BubbleDiagramServiceImpl implements BubbleDiagramService {
     }
 
     @Override
-    public int createNewDiagram(String name) {
-        return 0;
+    public int createNewDiagram(String name, String userName, boolean isPublic) {
+        return bubbleDiagramRepository.createNewDiagram(name, userName, isPublic);
     }
 
     @Override
@@ -69,5 +69,15 @@ public class BubbleDiagramServiceImpl implements BubbleDiagramService {
     @Override
     public boolean editDiagram(PutDiagramDto dto) {
         return bubbleDiagramRepository.editDiagram(dto);
+    }
+
+    @Override
+    public List<ProjectDto> findProjectsInDiagramById(int id) {
+        return bubbleDiagramRepository.findProjectsInDiagramById(id);
+    }
+
+    @Override
+    public List<ProjectDto> findProjectsNotInDiagramById(int id) {
+        return bubbleDiagramRepository.findProjectsNotInDiagramById(id);
     }
 }

@@ -14,4 +14,8 @@ public interface UserRepository {
     User editUser(User user);
 
     List<User> findAll();
+
+    String findRoleByToken(String authorization);
+
+    String findRoleNameByToken(String authorization);
 }

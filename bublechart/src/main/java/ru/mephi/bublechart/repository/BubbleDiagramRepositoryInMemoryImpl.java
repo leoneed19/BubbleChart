@@ -52,20 +52,22 @@ public class BubbleDiagramRepositoryInMemoryImpl implements BubbleDiagramReposit
 
         projects.add(project);
 
-        int a = createNewDiagram("A");
+        int a = createNewDiagram("A", "DEFAULT", true);
         addProjectToBubbleDiagram(a, projects.get(0).getProjectid());
     }
 
     @Override
-    public List<DiagramDto> findDiagramList() {
+    public List<DiagramDto> findDiagramList(String name) {
         List<DiagramDto> diagramDtos = new ArrayList<>();
 
         for (BubbleDiagram bubbleDiagram : bubbleDiagrams) {
-            DiagramDto diagramDto = new DiagramDto();
-            diagramDto.setId(bubbleDiagram.getId());
-            diagramDto.setName(bubbleDiagram.getNameOfBubbleDiagram());
+            if (bubbleDiagram.isPublicDiagram() || bubbleDiagram.getUserName().equals(name)) {
+                DiagramDto diagramDto = new DiagramDto();
+                diagramDto.setId(bubbleDiagram.getId());
+                diagramDto.setName(bubbleDiagram.getNameOfBubbleDiagram());
 
-            diagramDtos.add(diagramDto);
+                diagramDtos.add(diagramDto);
+            }
         }
 
         return diagramDtos;
@@ -145,11 +147,14 @@ public class BubbleDiagramRepositoryInMemoryImpl implements BubbleDiagramReposit
     }
 
     @Override
-    public int createNewDiagram(String name) {
+    public int createNewDiagram(String name, String userName, boolean isPuplic) {
         BubbleDiagram bubbleDiagram = new BubbleDiagram(name);
+        bubbleDiagram.setPublicDiagram(isPuplic);
         bubbleDiagram.setId(currentMaxId + 1);
         currentMaxId++;
         bubbleDiagrams.add(bubbleDiagram);
+
+        bubbleDiagram.setUserName(userName);
         return currentMaxId;
     }
 
@@ -234,5 +239,43 @@ public class BubbleDiagramRepositoryInMemoryImpl implements BubbleDiagramReposit
             }
         }
         return false;
+    }
+
+    @Override
+    public List<ProjectDto> findProjectsNotInDiagramById(int id) {
+
+        List<ProjectDto> projectDtos = new ArrayList<>();
+
+        for (BubbleDiagram diagram : bubbleDiagrams) {
+            if (diagram.getId() == id) {
+                for (Project project : projects) {
+                    if (!diagram.getProjects().contains(project)) {
+                        ProjectDto projectDto = new ProjectDto();
+                        projectDto.setName(project.getProjectName());
+                        projectDto.setId(project.getProjectid());
+                        projectDtos.add(projectDto);
+                    }
+                }
+
+            }
+        }
+
+        return projectDtos;
+    }
+
+    @Override
+    public List<ProjectDto> findProjectsInDiagramById(int id) {
+        List<ProjectDto> projectDtos = new ArrayList<>();
+        for (BubbleDiagram diagram : bubbleDiagrams) {
+            if (diagram.getId() == id) {
+                for (Project project : diagram.getProjects()) {
+                    ProjectDto projectDto = new ProjectDto();
+                    projectDto.setName(project.getProjectName());
+                    projectDto.setId(project.getProjectid());
+                    projectDtos.add(projectDto);
+                }
+            }
+        }
+        return projectDtos;
     }
 }

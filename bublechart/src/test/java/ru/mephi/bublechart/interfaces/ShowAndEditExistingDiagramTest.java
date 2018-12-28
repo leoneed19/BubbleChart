@@ -37,9 +37,9 @@ class ShowAndEditExistingDiagramTest {
 
     @Test
     void showAndEditDiagramTest() {
-        Mockito.when(bubbleDiagramRepository.findDiagramList())
+        Mockito.when(bubbleDiagramRepository.findDiagramList(""))
                 .thenReturn(Arrays.asList(new DiagramDto(), new DiagramDto()));
-        List<DiagramDto> diagramList = bubbleDiagramService.findDiagramList();
+        List<DiagramDto> diagramList = bubbleDiagramService.findDiagramList("");
         assertEquals(2, diagramList.size());
 
         Mockito.when(bubbleDiagramRepository.findById(1))
@@ -55,9 +55,9 @@ class ShowAndEditExistingDiagramTest {
 
     @Test
     void showAndEditDiagramEditErrorTest() {
-        Mockito.when(bubbleDiagramRepository.findDiagramList())
+        Mockito.when(bubbleDiagramRepository.findDiagramList(""))
                 .thenReturn(Arrays.asList(new DiagramDto(), new DiagramDto()));
-        List<DiagramDto> diagramList = bubbleDiagramService.findDiagramList();
+        List<DiagramDto> diagramList = bubbleDiagramService.findDiagramList("");
         assertEquals(2, diagramList.size());
 
         Mockito.when(bubbleDiagramRepository.findById(1))
@@ -73,9 +73,9 @@ class ShowAndEditExistingDiagramTest {
 
     @Test
     void showAndEditDiagramFindByIdErrorTest() {
-        Mockito.when(bubbleDiagramRepository.findDiagramList())
+        Mockito.when(bubbleDiagramRepository.findDiagramList(""))
                 .thenReturn(Arrays.asList(new DiagramDto(), new DiagramDto()));
-        List<DiagramDto> diagramList = bubbleDiagramService.findDiagramList();
+        List<DiagramDto> diagramList = bubbleDiagramService.findDiagramList("");
         assertEquals(2, diagramList.size());
 
         Mockito.when(bubbleDiagramRepository.findById(1))
@@ -86,9 +86,9 @@ class ShowAndEditExistingDiagramTest {
 
     @Test
     void showAndEditDiagramFindDiagramListErrorTest() {
-        Mockito.when(bubbleDiagramRepository.findDiagramList())
+        Mockito.when(bubbleDiagramRepository.findDiagramList(""))
                 .thenReturn(null);
-        List<DiagramDto> diagramList = bubbleDiagramService.findDiagramList();
+        List<DiagramDto> diagramList = bubbleDiagramService.findDiagramList("");
         assertNull(diagramList);
     }
 }

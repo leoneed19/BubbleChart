@@ -61,7 +61,7 @@ public class BubbleDiagramRepositoryImpl implements BubbleDiagramRepository {
     }
 
     @Override
-    public List<DiagramDto> findDiagramList() {
+    public List<DiagramDto> findDiagramList(String name) {
         return jdbcTemplate.query(selectDiagramsInfo,
                 (rs, rowNum) -> new DiagramDto(rs.getInt("id"), rs.getString("name"))
         );
@@ -107,7 +107,7 @@ public class BubbleDiagramRepositoryImpl implements BubbleDiagramRepository {
     }
 
     @Override
-    public int createNewDiagram(String name) {
+    public int createNewDiagram(String name, String userName, boolean isPuplic) {
         return 0;
     }
 
@@ -119,6 +119,16 @@ public class BubbleDiagramRepositoryImpl implements BubbleDiagramRepository {
     @Override
     public boolean editDiagram(PutDiagramDto dto) {
         return false;
+    }
+
+    @Override
+    public List<ProjectDto> findProjectsNotInDiagramById(int id) {
+        return null;
+    }
+
+    @Override
+    public List<ProjectDto> findProjectsInDiagramById(int id) {
+        return null;
     }
 
     private BubbleDiagram parseFindByIdAnswer(List<SelectBubbleDiagramByIdDto> dtos) {

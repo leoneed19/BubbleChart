@@ -5,6 +5,10 @@ public class User {
     private Integer id;
     private String name;
     private String role;
+    private String password;
+    private String token;
+    private String realName;
+
 
     public Integer getId() {
         return id;
@@ -28,5 +32,29 @@ public class User {
 
     public void setRole(String role) {
         this.role = role;
+    }
+
+    public String getPassword() {
+        return password;
+    }
+
+    public void setPassword(String password) {
+        this.password = password;
+    }
+
+    public String getToken() {
+        return token;
+    }
+
+    public void setToken(String token) {
+        this.token = token;
+    }
+
+    public String getRealName() {
+        return realName;
+    }
+
+    public void setRealName(String realName) {
+        this.realName = realName;
     }
 }
