@@ -6,12 +6,20 @@ import java.util.List;
 public class BubbleDiagram {
     private int id;
     private String nameOfBubbleDiagram;
-    private List<Project> projects = new ArrayList<Project>();
+    private List<Project> projects = new ArrayList<>();
     private int transparency;
     private int[] xScale;
     private int[] yScale;
-    private List<Bubble> bubbles = new ArrayList<Bubble>();
-    private List<Type> types = new ArrayList<Type>();
+    private List<Bubble> bubbles = new ArrayList<>();
+    private List<Type> types = new ArrayList<>();
+
+    public BubbleDiagram() {
+    }
+
+    public BubbleDiagram(String nameOfBubbleDiagram) {
+        List<Type> types = new ArrayList<Type>();
+        this.nameOfBubbleDiagram = nameOfBubbleDiagram;
+    }
 
     public List<Bubble> getBubbles() {
         return bubbles;
@@ -20,8 +28,6 @@ public class BubbleDiagram {
     public void setBubbles(List<Bubble> bubbles) {
         this.bubbles = bubbles;
     }
-
-    public BubbleDiagram() {}
 
     public String getNameOfBubbleDiagram() {
         return nameOfBubbleDiagram;
@@ -53,11 +59,6 @@ public class BubbleDiagram {
 
     public void setyScale(int[] yScale) {
         this.yScale = yScale;
-    }
-
-    public BubbleDiagram(String nameOfBubbleDiagram) {
-        List<Type> types = new ArrayList<Type>();
-        this.nameOfBubbleDiagram = nameOfBubbleDiagram;
     }
 
     public int addProject(Project project) {
@@ -101,7 +102,7 @@ public class BubbleDiagram {
 
             for (Project pr : projects) {
                 if (pr.getProjectName().equals(projectName)) {
-                    List<Factor>  f = pr.getFactors();
+                    List<Factor> f = pr.getFactors();
                     for (Factor f1 : f) {
                         if (f1.equals(factor))
                             return 1;
@@ -119,7 +120,7 @@ public class BubbleDiagram {
         if (flag == 1) {
             for (Project pr : projects) {
                 if (pr.getProjectName().equals(projectName)) {
-                    List<Factor>  f = pr.getFactors();
+                    List<Factor> f = pr.getFactors();
                     for (Factor f1 : f) {
                         if (f1.equals(factor))
                             return 1;
@@ -153,11 +154,15 @@ public class BubbleDiagram {
         return 1;
     }
 
+    public int getId() {
+        return id;
+    }
+
     public void setId(int id) {
         this.id = id;
     }
 
-    public int getId() {
-        return id;
+    public List<Project> getProjects() {
+        return projects;
     }
 }

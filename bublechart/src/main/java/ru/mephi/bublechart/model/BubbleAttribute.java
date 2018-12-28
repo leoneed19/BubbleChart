@@ -1,12 +1,20 @@
 package ru.mephi.bublechart.model;
 
 public class BubbleAttribute {
+    Factor factor;
     private String attributeName;
     private Type attributeType;
     private double attributeValue;
-    Factor factor;
 
-    public BubbleAttribute() {}
+    public BubbleAttribute() {
+    }
+
+    public BubbleAttribute(String attributeName, Type attributeType, double attributeValue, Factor factor) {
+        this.attributeName = attributeName;
+        this.attributeType = attributeType;
+        this.attributeValue = attributeValue;
+        this.factor = factor;
+    }
 
     public String getAttributeName() {
         return attributeName;
@@ -30,12 +38,5 @@ public class BubbleAttribute {
 
     public void setAttributeValue(double attributeValue) {
         this.attributeValue = attributeValue;
-    }
-
-    public BubbleAttribute(String attributeName, Type attributeType, double attributeValue, Factor factor) {
-        this.attributeName = attributeName;
-        this.attributeType = attributeType;
-        this.attributeValue = attributeValue;
-        this.factor = factor;
     }
 }

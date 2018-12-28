@@ -5,8 +5,8 @@ import lombok.Data;
 @Data
 public class BubbleDto {
 
-    private Double x;
-    private Double y;
-    private Double r;
-    private Double t;
+    private AttributeDto x;
+    private AttributeDto y;
+    private AttributeDto r;
+    private AttributeDto t;
 }

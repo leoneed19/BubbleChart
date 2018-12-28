@@ -1,7 +1,6 @@
 package ru.mephi.bublechart.interfaces;
 
 
-
 import ru.mephi.bublechart.users.User;
 
 import java.util.List;

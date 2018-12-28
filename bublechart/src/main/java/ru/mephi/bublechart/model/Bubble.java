@@ -5,6 +5,24 @@ import java.util.List;
 
 public class Bubble {
 
+    private List<BubbleAttribute> bubbleAttributes = new ArrayList<BubbleAttribute>();
+    private Project project;
+    private int bubbleNumber;
+    private String BubbleName;
+
+    public Bubble() {
+    }
+
+    public Bubble(int bubbleNumber, String bubbleName, Project project) {
+        List<BubbleAttribute> bubbleAttributes = new ArrayList<BubbleAttribute>();
+        this.bubbleNumber = bubbleNumber;
+        this.BubbleName = bubbleName;
+        this.project = project;
+        for (Factor factor : project.getFactors()) {
+            addAttribute(factor.getFactorName(), factor.getFactorType(), factor.getFactorValue(), factor);
+        }
+    }
+
     public List<BubbleAttribute> getBubbleAttributes() {
         return bubbleAttributes;
     }
@@ -13,16 +31,11 @@ public class Bubble {
         this.bubbleAttributes = bubbleAttributes;
     }
 
-    List<BubbleAttribute> bubbleAttributes = new ArrayList<BubbleAttribute>();
-    private int bubbleNumber;
-    private String BubbleName;
-    Project project;
-
-    public  int getBubbleNumber() {
+    public int getBubbleNumber() {
         return bubbleNumber;
     }
 
-    public  void setBubbleNumber(int bubbleNumber) {
+    public void setBubbleNumber(int bubbleNumber) {
         this.bubbleNumber = bubbleNumber;
     }
 
@@ -34,19 +47,7 @@ public class Bubble {
         BubbleName = bubbleName;
     }
 
-    public Bubble() {}
-
-    public Bubble(int bubbleNumber, String bubbleName, Project project) {
-        List<BubbleAttribute> bubbleAttributes = new ArrayList<BubbleAttribute>();
-        this.bubbleNumber = bubbleNumber;
-        this.BubbleName = bubbleName;
-        this.project = project;
-        for (Factor factor: project.getFactors()) {
-            addAttribute(factor.getFactorName(), factor.getFactorType(), factor.getFactorValue(), factor);
-        }
-    }
-
-    public int changeAttribute(String attributeName, Factor factor){
+    public int changeAttribute(String attributeName, Factor factor) {
         for (BubbleAttribute a : bubbleAttributes) {
             if (a.getAttributeName().equals(attributeName)) {
                 a.factor = factor;
@@ -100,5 +101,13 @@ public class Bubble {
             return true;
         else
             return false;
-        }
+    }
+
+    public Project getProject() {
+        return project;
+    }
+
+    public void setProject(Project project) {
+        this.project = project;
+    }
 }

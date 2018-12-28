@@ -2,12 +2,13 @@ package ru.mephi.bublechart.repository;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.jdbc.core.JdbcTemplate;
-import org.springframework.stereotype.Component;
 import ru.mephi.bublechart.interfaces.dto.DiagramDto;
-import ru.mephi.bublechart.model.BubbleAttribute;
 import ru.mephi.bublechart.model.Bubble;
+import ru.mephi.bublechart.model.BubbleAttribute;
 import ru.mephi.bublechart.model.BubbleDiagram;
 import ru.mephi.bublechart.repository.dto.SelectBubbleDiagramByIdDto;
+import ru.mephi.bublechart.web.dto.ProjectDto;
+import ru.mephi.bublechart.web.dto.PutDiagramDto;
 
 import javax.annotation.PostConstruct;
 import java.util.ArrayList;
@@ -15,7 +16,6 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
-@Component
 public class BubbleDiagramRepositoryImpl implements BubbleDiagramRepository {
 
     private final String createTableBubbleDiagram =
@@ -68,8 +68,18 @@ public class BubbleDiagramRepositoryImpl implements BubbleDiagramRepository {
     }
 
     @Override
+    public List<ProjectDto> findProjectList() {
+        return null;
+    }
+
+    @Override
     public Integer deleteById(int id) {
         return null;
+    }
+
+    @Override
+    public boolean deleteProjectFromDiagram(int diagramId, int projectId) {
+        return false;
     }
 
     @Override
@@ -94,6 +104,21 @@ public class BubbleDiagramRepositoryImpl implements BubbleDiagramRepository {
     @Override
     public Integer editBubbleDiagram(BubbleDiagram bubbleDiagram) {
         return null;
+    }
+
+    @Override
+    public int createNewDiagram(String name) {
+        return 0;
+    }
+
+    @Override
+    public boolean addProjectToBubbleDiagram(int bubbleDiagramId, int projectId) {
+        return false;
+    }
+
+    @Override
+    public boolean editDiagram(PutDiagramDto dto) {
+        return false;
     }
 
     private BubbleDiagram parseFindByIdAnswer(List<SelectBubbleDiagramByIdDto> dtos) {
