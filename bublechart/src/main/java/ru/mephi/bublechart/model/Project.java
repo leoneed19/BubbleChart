@@ -82,9 +82,4 @@ public class Project {
                 Objects.equals(factors, project.factors) &&
                 Objects.equals(projectName, project.projectName);
     }
-
-    @Override
-    public int hashCode() {
-        return Objects.hash(Projectid, factors, projectName);
-    }
 }

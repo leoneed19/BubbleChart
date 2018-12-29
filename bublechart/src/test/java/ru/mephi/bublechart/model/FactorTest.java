@@ -9,6 +9,9 @@ public class FactorTest {
 
     @Test
     public void getFactorName() {
+        Factor factor1 = new Factor();
+        Factor factor2 = new Factor(111);
+        Factor factor3 = new Factor("name", 111);
         Type type1 = new Type ("typeName");
         Factor f1 = new Factor("factorname_1", type1);
         assertEquals("factorname_1", f1.getFactorName());

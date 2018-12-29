@@ -10,12 +10,14 @@ public class BubbleAttributeTest {
     @BeforeEach
     void initAll() {
         Type type1 = new Type ("typeName");
+
         Factor factor = new Factor("factorName", type1, 11);
         BubbleAttribute bubbleAttribute1 = new BubbleAttribute("attribute_name", type1, 10.0, factor);
     }
 
     @Test
     public void getAttributeName() {
+        BubbleAttribute bubbleAttribute = new BubbleAttribute();
         Type type1 = new Type ("typeName");
         Factor factor = new Factor("factorName", type1, 11);
         BubbleAttribute bubbleAttribute1 = new BubbleAttribute("attribute_name", type1, 10.0, factor);

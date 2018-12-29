@@ -5,7 +5,7 @@ import org.junit.jupiter.api.Test;
 import java.util.ArrayList;
 import java.util.List;
 
-import static org.junit.jupiter.api.Assertions.assertEquals;
+import static org.junit.jupiter.api.Assertions.*;
 
 public class ProjectTest {
 
@@ -78,4 +78,37 @@ public class ProjectTest {
         project1.addFactor(f1);
         assertEquals(1, project1.deleteFactor("name2"));
     }
+
+    @Test
+    void setFactors() {
+        List<Factor> factors = new ArrayList<>();
+        Project project = new Project();
+        project.setFactors(factors);
+        assertEquals(factors, project.getFactors());
+    }
+
+    @Test
+    void getProjectid() {
+        Project project = new Project();
+        project.setProjectid(1);
+        assertEquals(1, project.getProjectid());
+    }
+
+    @Test
+    void setProjectid() {
+        Project project = new Project();
+        project.setProjectid(2);
+        assertEquals(2, project.getProjectid());
+    }
+
+    @Test
+    void equals() {
+        Project project1 = new Project();
+        project1.setProjectid(1);
+        Project project2 = new Project();
+        project2.setProjectid(1);
+        assertTrue(project1.equals(project2));
+
+    }
+
 }

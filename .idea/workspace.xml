@@ -1,0 +1,991 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="f4ff5a34-63dd-4d84-8586-845296dabb67" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__ch_qos_logback_logback_classic_1_2_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__ch_qos_logback_logback_core_1_2_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_classmate_1_4_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_9_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_9_7.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_9_7.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_jdk8_2_9_7.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_jsr310_2_9_7.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_module_jackson_module_parameter_names_2_9_7.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_jayway_jsonpath_json_path_2_4_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_vaadin_external_google_android_json_0_0_20131108_vaadin1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_zaxxer_HikariCP_3_2_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_annotation_javax_annotation_api_1_3_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_validation_validation_api_2_0_1_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_12.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_bytebuddy_byte_buddy_1_9_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_bytebuddy_byte_buddy_agent_1_9_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_minidev_accessors_smart_1_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_minidev_json_smart_2_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_logging_log4j_log4j_api_2_11_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_logging_log4j_log4j_to_slf4j_2_11_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_core_9_0_13.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_el_9_0_13.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_websocket_9_0_13.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apiguardian_apiguardian_api_1_0_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_assertj_assertj_core_3_11_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_library_1_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_validator_hibernate_validator_6_0_13_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_logging_jboss_logging_3_3_2_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_api_5_3_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_engine_5_3_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_platform_junit_platform_commons_1_3_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_platform_junit_platform_engine_1_3_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mockito_mockito_core_2_21_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mockito_mockito_junit_jupiter_2_23_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mortbay_jetty_jetty_util_6_1_25.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_objenesis_objenesis_2_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_opentest4j_opentest4j_1_1_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_ow2_asm_asm_5_0_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_postgresql_postgresql_42_2_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_projectlombok_lombok_1_18_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_skyscreamer_jsonassert_1_5_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_jul_to_slf4j_1_7_25.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_25.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_2_1_1_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_autoconfigure_2_1_1_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_2_1_1_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_jdbc_2_1_1_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_json_2_1_1_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_logging_2_1_1_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_test_2_1_1_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_tomcat_2_1_1_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_web_2_1_1_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_2_1_1_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_autoconfigure_2_1_1_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aop_5_1_3_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_beans_5_1_3_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_5_1_3_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_core_5_1_3_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_expression_5_1_3_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jcl_5_1_3_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jdbc_5_1_3_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_test_5_1_3_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_tx_5_1_3_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_web_5_1_3_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_webmvc_5_1_3_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_xmlunit_xmlunit_core_2_6_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_yaml_snakeyaml_1_23.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bublechart/bublechart.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bublechart/src/main/java/ru/mephi/bublechart/model/Project.java" beforeDir="false" afterPath="$PROJECT_DIR$/bublechart/src/main/java/ru/mephi/bublechart/model/Project.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bublechart/src/test/java/ru/mephi/bublechart/interfaces/DeleteExistingDiagramTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/bublechart/src/test/java/ru/mephi/bublechart/interfaces/DeleteExistingDiagramTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bublechart/src/test/java/ru/mephi/bublechart/interfaces/ShowAndEditExistingDiagramTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/bublechart/src/test/java/ru/mephi/bublechart/interfaces/ShowAndEditExistingDiagramTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bublechart/src/test/java/ru/mephi/bublechart/model/BubbleAttributeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/bublechart/src/test/java/ru/mephi/bublechart/model/BubbleAttributeTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bublechart/src/test/java/ru/mephi/bublechart/model/BubbleDiagramTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/bublechart/src/test/java/ru/mephi/bublechart/model/BubbleDiagramTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bublechart/src/test/java/ru/mephi/bublechart/model/BubbleTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/bublechart/src/test/java/ru/mephi/bublechart/model/BubbleTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bublechart/src/test/java/ru/mephi/bublechart/model/FactorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/bublechart/src/test/java/ru/mephi/bublechart/model/FactorTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bublechart/src/test/java/ru/mephi/bublechart/model/ProjectTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/bublechart/src/test/java/ru/mephi/bublechart/model/ProjectTest.java" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/bublechart/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/db_rest$BubbleTest.ic" NAME="BubbleTest Coverage Results" MODIFIED="1546111049663" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>ru.mephi.bublechart.model.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/db_rest$ProjectTest.ic" NAME="ProjectTest Coverage Results" MODIFIED="1546109085610" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>ru.mephi.bublechart.model.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/db_rest$ShowAndEditExistingDiagramTest.ic" NAME="ShowAndEditExistingDiagramTest Coverage Results" MODIFIED="1546106601928" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>ru.mephi.bublechart.interfaces.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/db_rest$FactorTest.ic" NAME="FactorTest Coverage Results" MODIFIED="1546108595948" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>ru.mephi.bublechart.model.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/db_rest$ru_mephi_bublechart_interfaces_diagramDtoTest_in_bublechart.ic" NAME="ru.mephi.bublechart.interfaces.diagramDtoTest in bublechart Coverage Results" MODIFIED="1546107418172" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>ru.mephi.bublechart.interfaces.diagramDtoTest.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/db_rest$BubbleDiagramTest.ic" NAME="BubbleDiagramTest Coverage Results" MODIFIED="1546114207422" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>ru.mephi.bublechart.model.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/db_rest$BubbleAttributeTest.ic" NAME="BubbleAttributeTest Coverage Results" MODIFIED="1546108340568" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>ru.mephi.bublechart.model.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/db_rest$ShowAndEditExistingDiagramTest_showAndEditDiagramEditDiagramTest.ic" NAME="ShowAndEditExistingDiagramTest.showAndEditDiagramEditDiagramTest Coverage Results" MODIFIED="1546105664259" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>ru.mephi.bublechart.interfaces.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/db_rest$ru_mephi_bublechart_in_bublechart.ic" NAME="ru.mephi.bublechart in bublechart Coverage Results" MODIFIED="1546107834781" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>ru.mephi.bublechart.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/db_rest$ru_mephi_bublechart_interfaces_in_bublechart.ic" NAME="ru.mephi.bublechart.interfaces in bublechart Coverage Results" MODIFIED="1546107974862" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>ru.mephi.bublechart.interfaces.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/db_rest$ru_mephi_bublechart_model_in_bublechart.ic" NAME="ru.mephi.bublechart.model in bublechart Coverage Results" MODIFIED="1546109204848" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>ru.mephi.bublechart.model.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/db_rest$ShowAndEditExistingDiagramTest_showAndEditDiagramreateNewDiagramTest.ic" NAME="ShowAndEditExistingDiagramTest.showAndEditDiagramСreateNewDiagramTest Coverage Results" MODIFIED="1546104066768" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>ru.mephi.bublechart.interfaces.*</FILTER>
+    </SUITE>
+  </component>
+  <component name="CoverageViewManager">
+    <option name="myElementSize" value="206" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/bublechart/src/main/java/ru/mephi/bublechart/model/Bubble.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="18">
+              <caret line="32" lean-forward="true" selection-start-line="32" selection-end-line="32" />
+              <folding>
+                <element signature="e#3058#3059#0" expanded="true" />
+                <element signature="e#3143#3144#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/bublechart/src/test/java/ru/mephi/bublechart/model/BubbleTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="335">
+              <caret line="94" column="51" lean-forward="true" selection-start-line="94" selection-start-column="51" selection-end-line="94" selection-end-column="51" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/bublechart/src/main/java/ru/mephi/bublechart/model/BubbleAttribute.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="144">
+              <caret line="8" column="14" lean-forward="true" selection-start-line="8" selection-start-column="14" selection-end-line="8" selection-end-column="14" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/bublechart/src/main/java/ru/mephi/bublechart/model/Factor.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="414">
+              <caret line="23" column="15" lean-forward="true" selection-start-line="23" selection-start-column="15" selection-end-line="23" selection-end-column="15" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/bublechart/src/test/java/ru/mephi/bublechart/model/FactorTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="144">
+              <caret line="13" column="44" lean-forward="true" selection-start-line="13" selection-start-column="44" selection-end-line="13" selection-end-column="44" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/bublechart/src/main/java/ru/mephi/bublechart/model/Project.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-439">
+              <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="method#Project#1;class#Project#0" />
+                <element signature="method#equals#0;class#Project#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/bublechart/src/test/java/ru/mephi/bublechart/model/BubbleAttributeTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-349">
+              <caret line="19" column="39" selection-start-line="19" selection-start-column="39" selection-end-line="19" selection-end-column="39" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/bublechart/src/main/java/ru/mephi/bublechart/model/BubbleDiagram.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="432">
+              <caret line="25" column="23" selection-start-line="25" selection-start-column="11" selection-end-line="25" selection-end-column="23" />
+              <folding>
+                <element signature="method#addProject#0;class#BubbleDiagram#0" />
+                <element signature="e#1735#1813#0" />
+                <element signature="e#2146#2232#1" />
+                <element signature="method#addFactorToProject#0;class#BubbleDiagram#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/bublechart/src/test/java/ru/mephi/bublechart/model/BubbleDiagramTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="436">
+              <caret line="212" selection-start-line="212" selection-end-line="212" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/bublechart/src/main/java/ru/mephi/bublechart/repository/BubbleDiagramRepositoryInMemoryImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="360">
+              <caret line="20" column="33" selection-start-line="20" selection-start-column="33" selection-end-line="20" selection-end-column="33" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="method#findDiagramList#0;class#BubbleDiagramRepositoryInMemoryImpl#0" />
+                <element signature="method#findProjectList#0;class#BubbleDiagramRepositoryInMemoryImpl#0" />
+                <element signature="method#deleteProjectFromDiagram#0;class#BubbleDiagramRepositoryInMemoryImpl#0" />
+                <element signature="method#findById#0;class#BubbleDiagramRepositoryInMemoryImpl#0" />
+                <element signature="method#createNewDiagram#0;class#BubbleDiagramRepositoryInMemoryImpl#0" />
+                <element signature="method#addProjectToBubbleDiagram#0;class#BubbleDiagramRepositoryInMemoryImpl#0" />
+                <element signature="method#editDiagram#0;class#BubbleDiagramRepositoryInMemoryImpl#0" />
+                <element signature="method#findProjectsNotInDiagramById#0;class#BubbleDiagramRepositoryInMemoryImpl#0" />
+                <element signature="method#findProjectsInDiagramById#0;class#BubbleDiagramRepositoryInMemoryImpl#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JUnit5 Test Class" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>service</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/bublechart/src/main/java/ru/mephi/bublechart/interfaces/BubbleDiagramServiceImpl.java" />
+        <option value="$PROJECT_DIR$/bublechart/src/test/java/ru/mephi/bublechart/interfaces/BubbleDiagramServiceImplTest.java" />
+        <option value="$PROJECT_DIR$/bublechart/src/test/java/ru/mephi/bublechart/interfaces/DeleteExistingDiagramTest.java" />
+        <option value="$PROJECT_DIR$/bublechart/src/test/java/ru/mephi/bublechart/interfaces/ShowAndEditExistingDiagramTest.java" />
+        <option value="$PROJECT_DIR$/bublechart/src/test/java/ru/mephi/bublechart/interfaces/diagramDtoTest/DiagramDtoTest.java" />
+        <option value="$PROJECT_DIR$/bublechart/src/test/java/ru/mephi/bublechart/model/BubbleAttributeTest.java" />
+        <option value="$PROJECT_DIR$/bublechart/src/test/java/ru/mephi/bublechart/model/FactorTest.java" />
+        <option value="$PROJECT_DIR$/bublechart/src/main/java/ru/mephi/bublechart/model/Project.java" />
+        <option value="$PROJECT_DIR$/bublechart/src/test/java/ru/mephi/bublechart/model/ProjectTest.java" />
+        <option value="$PROJECT_DIR$/bublechart/src/test/java/ru/mephi/bublechart/model/BubbleTest.java" />
+        <option value="$PROJECT_DIR$/bublechart/src/main/java/ru/mephi/bublechart/model/Bubble.java" />
+        <option value="$PROJECT_DIR$/bublechart/src/test/java/ru/mephi/bublechart/model/BubbleDiagramTest.java" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="67" />
+    <option name="y" value="33" />
+    <option name="width" value="1176" />
+    <option name="height" value="1047" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="db-rest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="db-rest" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="db-rest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="db-rest" type="462c0819:PsiDirectoryNode" />
+              <item name="bublechart" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="db-rest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="db-rest" type="462c0819:PsiDirectoryNode" />
+              <item name="bublechart" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="db-rest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="db-rest" type="462c0819:PsiDirectoryNode" />
+              <item name="bublechart" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="db-rest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="db-rest" type="462c0819:PsiDirectoryNode" />
+              <item name="bublechart" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="db-rest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="db-rest" type="462c0819:PsiDirectoryNode" />
+              <item name="bublechart" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="bublechart" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="db-rest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="db-rest" type="462c0819:PsiDirectoryNode" />
+              <item name="bublechart" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="bublechart" type="462c0819:PsiDirectoryNode" />
+              <item name="interfaces" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="db-rest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="db-rest" type="462c0819:PsiDirectoryNode" />
+              <item name="bublechart" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="bublechart" type="462c0819:PsiDirectoryNode" />
+              <item name="repository" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="db-rest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="db-rest" type="462c0819:PsiDirectoryNode" />
+              <item name="bublechart" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="bublechart" type="462c0819:PsiDirectoryNode" />
+              <item name="users" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="db-rest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="db-rest" type="462c0819:PsiDirectoryNode" />
+              <item name="bublechart" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="bublechart" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="db-rest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="db-rest" type="462c0819:PsiDirectoryNode" />
+              <item name="bublechart" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="db-rest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="db-rest" type="462c0819:PsiDirectoryNode" />
+              <item name="bublechart" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="db-rest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="db-rest" type="462c0819:PsiDirectoryNode" />
+              <item name="bublechart" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="bublechart" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="db-rest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="db-rest" type="462c0819:PsiDirectoryNode" />
+              <item name="bublechart" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="bublechart" type="462c0819:PsiDirectoryNode" />
+              <item name="interfaces" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="db-rest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="db-rest" type="462c0819:PsiDirectoryNode" />
+              <item name="bublechart" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="bublechart" type="462c0819:PsiDirectoryNode" />
+              <item name="model" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1546116217737" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="ru.mephi.bublechart.interfaces" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="JUnit.BubbleDiagramTest.getProjects">
+    <configuration name="BubbleDiagramTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="bublechart" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ru.mephi.bublechart.model.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ru.mephi.bublechart.model" />
+      <option name="MAIN_CLASS_NAME" value="ru.mephi.bublechart.model.BubbleDiagramTest" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BubbleDiagramTest.getProjects" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="bublechart" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ru.mephi.bublechart.model.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ru.mephi.bublechart.model" />
+      <option name="MAIN_CLASS_NAME" value="ru.mephi.bublechart.model.BubbleDiagramTest" />
+      <option name="METHOD_NAME" value="getProjects" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BubbleTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="bublechart" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ru.mephi.bublechart.model.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ru.mephi.bublechart.model" />
+      <option name="MAIN_CLASS_NAME" value="ru.mephi.bublechart.model.BubbleTest" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ProjectTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="bublechart" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ru.mephi.bublechart.model.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ru.mephi.bublechart.model" />
+      <option name="MAIN_CLASS_NAME" value="ru.mephi.bublechart.model.ProjectTest" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ru.mephi.bublechart.model in bublechart" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="bublechart" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ru.mephi.bublechart.model.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ru.mephi.bublechart.model" />
+      <option name="TEST_OBJECT" value="package" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.BubbleDiagramTest.getProjects" />
+        <item itemvalue="JUnit.BubbleDiagramTest" />
+        <item itemvalue="JUnit.BubbleTest" />
+        <item itemvalue="JUnit.ru.mephi.bublechart.model in bublechart" />
+        <item itemvalue="JUnit.ProjectTest" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="f4ff5a34-63dd-4d84-8586-845296dabb67" name="Default Changelist" comment="" />
+      <created>1546090534220</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1546090534220</updated>
+      <workItem from="1546090535518" duration="16048000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="ProjectTest_setFactors - 2018.12.29 at 21h 40m 32s.xml">
+      <configuration name="ProjectTest.setFactors" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ProjectTest - 2018.12.29 at 21h 44m 46s.xml">
+      <configuration name="ProjectTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ru_mephi_bublechart_model_in_bublechart - 2018.12.29 at 21h 45m 48s.xml">
+      <configuration name="ru.mephi.bublechart.model in bublechart" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ru_mephi_bublechart_model_in_bublechart - 2018.12.29 at 21h 46m 46s.xml">
+      <configuration name="ru.mephi.bublechart.model in bublechart" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="BubbleTest - 2018.12.29 at 22h 08m 08s.xml">
+      <configuration name="BubbleTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="BubbleTest - 2018.12.29 at 22h 09m 09s.xml">
+      <configuration name="BubbleTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="BubbleTest - 2018.12.29 at 22h 16m 04s.xml">
+      <configuration name="BubbleTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="BubbleTest - 2018.12.29 at 22h 17m 30s.xml">
+      <configuration name="BubbleTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="BubbleDiagramTest - 2018.12.29 at 23h 10m 08s.xml">
+      <configuration name="BubbleDiagramTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="BubbleDiagramTest_getProjects - 2018.12.29 at 23h 11m 03s.xml">
+      <configuration name="BubbleDiagramTest.getProjects" configurationId="JUnit" />
+    </history-entry>
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="16048000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="67" y="33" width="1853" height="1047" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Designer" />
+      <window_info id="Image Layers" />
+      <window_info id="Capture Tool" />
+      <window_info id="UI Designer" />
+      <window_info id="Favorites" side_tool="true" />
+      <window_info id="Web" side_tool="true" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.14054658" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Spring" />
+      <window_info anchor="bottom" id="Terminal" />
+      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" weight="0.25283447" />
+      <window_info anchor="bottom" id="Java Enterprise" />
+      <window_info anchor="bottom" id="Database Changes" />
+      <window_info anchor="bottom" id="Version Control" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.07482993" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.1292517" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="right" id="Maven" />
+      <window_info anchor="right" id="Palette" />
+      <window_info anchor="right" id="Capture Analysis" />
+      <window_info anchor="right" id="BPMNPalette" />
+      <window_info anchor="right" id="Database" />
+      <window_info anchor="right" id="Palette&#9;" />
+      <window_info anchor="right" id="Theme Preview" />
+      <window_info anchor="right" id="Coverage" side_tool="true" visible="true" weight="0.2621305" />
+      <window_info anchor="right" id="Bean Validation" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/bublechart/src/main/java/ru/mephi/bublechart/web/api/PostDiagramDto.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bublechart/src/main/java/ru/mephi/bublechart/web/api/BubbleDiagramController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="504">
+          <caret line="38" selection-start-line="38" selection-end-line="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bublechart/src/main/java/ru/mephi/bublechart/web/filter/AdminFilter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="31" column="39" selection-start-line="31" selection-start-column="39" selection-end-line="31" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bublechart/src/main/java/ru/mephi/bublechart/web/filter/UserFilter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="504">
+          <caret line="37" selection-start-line="37" selection-end-line="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bublechart/src/main/java/ru/mephi/bublechart/web/api/AdminController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bublechart/src/main/java/ru/mephi/bublechart/web/api/AuthController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="36" column="30" lean-forward="true" selection-start-line="36" selection-start-column="30" selection-end-line="36" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bublechart/src/test/java/ru/mephi/bublechart/BubbleChartApplicationTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bublechart/src/test/java/ru/mephi/bublechart/interfaces/BubbleDiagramServiceImplTest.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bublechart/src/test/java/ru/mephi/bublechart/interfaces/UserServiceTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1044">
+          <caret line="18" column="6" selection-start-line="18" selection-start-column="6" selection-end-line="18" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bublechart/src/main/java/ru/mephi/bublechart/BubbleChartApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bublechart/src/main/java/ru/mephi/bublechart/repository/UserRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bublechart/src/main/java/ru/mephi/bublechart/repository/BubbleDiagramRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="30" column="12" selection-start-line="30" selection-start-column="12" selection-end-line="30" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bublechart/src/main/java/ru/mephi/bublechart/web/dto/ProjectDto.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bublechart/src/test/java/ru/mephi/bublechart/interfaces/ShowAndEditExistingDiagramTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="659">
+          <caret line="152" column="44" selection-start-line="152" selection-start-column="44" selection-end-line="152" selection-end-column="44" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bublechart/src/main/java/ru/mephi/bublechart/interfaces/ExernalSystemService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="6" column="17" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bublechart/src/main/java/ru/mephi/bublechart/interfaces/UserService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bublechart/src/main/java/ru/mephi/bublechart/interfaces/UserServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bublechart/src/test/java/ru/mephi/bublechart/interfaces/DeleteExistingDiagramTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1314">
+          <caret line="90" selection-start-line="90" selection-end-line="90" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bublechart/src/main/java/ru/mephi/bublechart/web/dto/DiagramDto.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bublechart/src/main/java/ru/mephi/bublechart/interfaces/BubbleDiagramService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="486">
+          <caret line="32" column="21" selection-start-line="32" selection-start-column="21" selection-end-line="32" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bublechart/src/test/java/ru/mephi/bublechart/interfaces/AddNewDiagrmTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="533">
+          <caret line="48" column="5" lean-forward="true" selection-start-line="20" selection-start-column="4" selection-end-line="48" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bublechart/src/test/java/ru/mephi/bublechart/interfaces/ExternalSystemServiceTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="18" column="6" selection-start-line="18" selection-start-column="6" selection-end-line="18" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bublechart/src/test/java/ru/mephi/bublechart/interfaces/diagramDtoTest/DiagramDtoTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="83">
+          <caret line="24" column="35" lean-forward="true" selection-start-line="24" selection-start-column="35" selection-end-line="24" selection-end-column="35" />
+          <folding>
+            <element signature="e#1101#1102#0" expanded="true" />
+            <element signature="e#1173#1174#0" expanded="true" />
+            <element signature="e#1334#1335#0" expanded="true" />
+            <element signature="e#1392#1393#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bublechart/src/main/java/ru/mephi/bublechart/interfaces/dto/DiagramDto.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bublechart/src/main/java/ru/mephi/bublechart/repository/dto/SelectBubbleDiagramByIdDto.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bublechart/src/main/java/ru/mephi/bublechart/interfaces/BubbleDiagramServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="738">
+          <caret line="55" column="42" lean-forward="true" selection-start-line="55" selection-start-column="42" selection-end-line="55" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bublechart/src/main/java/ru/mephi/bublechart/repository/BubbleDiagramRepositoryImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="18" column="30" lean-forward="true" selection-start-line="18" selection-start-column="30" selection-end-line="18" selection-end-column="30" />
+          <folding>
+            <element signature="method#init#0;class#BubbleDiagramRepositoryImpl#0" />
+            <element signature="method#findDiagramList#0;class#BubbleDiagramRepositoryImpl#0" />
+            <element signature="method#findById#0;class#BubbleDiagramRepositoryImpl#0" />
+            <element signature="method#parseFindByIdAnswer#0;class#BubbleDiagramRepositoryImpl#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bublechart/src/main/java/ru/mephi/bublechart/repository/UserRepositoryImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+          <folding>
+            <element signature="method#init#0;class#UserRepositoryImpl#0" />
+            <element signature="method#findByName#0;class#UserRepositoryImpl#0" />
+            <element signature="method#editUser#0;class#UserRepositoryImpl#0" />
+            <element signature="method#findRoleByToken#0;class#UserRepositoryImpl#0" />
+            <element signature="method#findRoleNameByToken#0;class#UserRepositoryImpl#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bublechart/src/main/java/ru/mephi/bublechart/users/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="36">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bublechart/src/main/java/ru/mephi/bublechart/mapper/DiagramMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="42">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bublechart/src/main/java/ru/mephi/bublechart/model/Type.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="504">
+          <caret line="35" column="9" lean-forward="true" selection-start-line="35" selection-start-column="9" selection-end-line="35" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bublechart/src/test/java/ru/mephi/bublechart/model/ProjectTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1872">
+          <caret line="109" column="1" lean-forward="true" selection-start-line="109" selection-start-column="1" selection-end-line="109" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bublechart/src/test/java/ru/mephi/bublechart/model/FactorTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="13" column="44" lean-forward="true" selection-start-line="13" selection-start-column="44" selection-end-line="13" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bublechart/src/main/java/ru/mephi/bublechart/model/Project.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-439">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#Project#1;class#Project#0" />
+            <element signature="method#equals#0;class#Project#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bublechart/src/test/java/ru/mephi/bublechart/model/BubbleAttributeTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-349">
+          <caret line="19" column="39" selection-start-line="19" selection-start-column="39" selection-end-line="19" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bublechart/src/main/java/ru/mephi/bublechart/model/BubbleAttribute.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="8" column="14" lean-forward="true" selection-start-line="8" selection-start-column="14" selection-end-line="8" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bublechart/src/main/java/ru/mephi/bublechart/model/Factor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="414">
+          <caret line="23" column="15" lean-forward="true" selection-start-line="23" selection-start-column="15" selection-end-line="23" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bublechart/src/test/java/ru/mephi/bublechart/model/BubbleTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="335">
+          <caret line="94" column="51" lean-forward="true" selection-start-line="94" selection-start-column="51" selection-end-line="94" selection-end-column="51" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bublechart/src/main/java/ru/mephi/bublechart/model/Bubble.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="18">
+          <caret line="32" lean-forward="true" selection-start-line="32" selection-end-line="32" />
+          <folding>
+            <element signature="e#3058#3059#0" expanded="true" />
+            <element signature="e#3143#3144#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bublechart/src/main/java/ru/mephi/bublechart/model/BubbleDiagram.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="432">
+          <caret line="25" column="23" selection-start-line="25" selection-start-column="11" selection-end-line="25" selection-end-column="23" />
+          <folding>
+            <element signature="method#addProject#0;class#BubbleDiagram#0" />
+            <element signature="e#1735#1813#0" />
+            <element signature="e#2146#2232#1" />
+            <element signature="method#addFactorToProject#0;class#BubbleDiagram#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bublechart/src/test/java/ru/mephi/bublechart/model/BubbleDiagramTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="436">
+          <caret line="212" selection-start-line="212" selection-end-line="212" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bublechart/src/main/java/ru/mephi/bublechart/repository/BubbleDiagramRepositoryInMemoryImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="20" column="33" selection-start-line="20" selection-start-column="33" selection-end-line="20" selection-end-column="33" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#findDiagramList#0;class#BubbleDiagramRepositoryInMemoryImpl#0" />
+            <element signature="method#findProjectList#0;class#BubbleDiagramRepositoryInMemoryImpl#0" />
+            <element signature="method#deleteProjectFromDiagram#0;class#BubbleDiagramRepositoryInMemoryImpl#0" />
+            <element signature="method#findById#0;class#BubbleDiagramRepositoryInMemoryImpl#0" />
+            <element signature="method#createNewDiagram#0;class#BubbleDiagramRepositoryInMemoryImpl#0" />
+            <element signature="method#addProjectToBubbleDiagram#0;class#BubbleDiagramRepositoryInMemoryImpl#0" />
+            <element signature="method#editDiagram#0;class#BubbleDiagramRepositoryInMemoryImpl#0" />
+            <element signature="method#findProjectsNotInDiagramById#0;class#BubbleDiagramRepositoryInMemoryImpl#0" />
+            <element signature="method#findProjectsInDiagramById#0;class#BubbleDiagramRepositoryInMemoryImpl#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

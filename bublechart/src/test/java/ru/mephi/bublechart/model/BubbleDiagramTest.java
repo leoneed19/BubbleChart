@@ -2,14 +2,17 @@ package ru.mephi.bublechart.model;
 
 import org.junit.jupiter.api.Test;
 
-import static org.junit.jupiter.api.Assertions.assertEquals;
-import static org.junit.jupiter.api.Assertions.assertNull;
+import java.util.ArrayList;
+import java.util.List;
+
+import static org.junit.jupiter.api.Assertions.*;
 
 public class BubbleDiagramTest {
 
     @Test
     public void getNameOfBubbleDiagram() {
         BubbleDiagram bubbleDiagram = new BubbleDiagram("name_bubble_D");
+        BubbleDiagram bubbleDiagram2 = new BubbleDiagram();
         assertEquals("name_bubble_D", bubbleDiagram.getNameOfBubbleDiagram());
     }
 
@@ -163,6 +166,63 @@ public class BubbleDiagramTest {
 
         assertEquals(0, bubbleDiagram.deleteProject(project));
         assertEquals(1, bubbleDiagram.deleteProject(project2));
+    }
+
+    @Test
+    void getBubbles() {
+        List<Bubble> bubbles = new ArrayList<>();
+        BubbleDiagram bubbleDiagram = new BubbleDiagram();
+        bubbleDiagram.setBubbles(bubbles);
+        assertEquals(bubbles, bubbleDiagram.getBubbles());
+    }
+
+    @Test
+    void setBubbles() {
+        List<Bubble> bubbles = new ArrayList<>();
+        BubbleDiagram bubbleDiagram = new BubbleDiagram();
+        bubbleDiagram.setBubbles(bubbles);
+        assertEquals(bubbles, bubbleDiagram.getBubbles());
+    }
+
+    @Test
+    void getId() {
+        BubbleDiagram bubbleDiagram = new BubbleDiagram();
+        bubbleDiagram.setId(1);
+        assertEquals(1, bubbleDiagram.getId());
+    }
+
+    @Test
+    void setId() {
+        BubbleDiagram bubbleDiagram = new BubbleDiagram();
+        bubbleDiagram.setId(2);
+        assertEquals(2, bubbleDiagram.getId());
+    }
+
+    @Test
+    void getProjects() {
+        List<Project> projectList = new ArrayList<>();
+        Project project = new Project();
+        projectList.add(project);
+        BubbleDiagram bubbleDiagram = new BubbleDiagram();
+        bubbleDiagram.addProject(project);
+        assertEquals(projectList, bubbleDiagram.getProjects());
+    }
+
+    @Test
+    void getUserName() {
+
+    }
+
+    @Test
+    void setUserName() {
+    }
+
+    @Test
+    void isPublicDiagram() {
+    }
+
+    @Test
+    void setPublicDiagram() {
     }
 
    /* @Test
